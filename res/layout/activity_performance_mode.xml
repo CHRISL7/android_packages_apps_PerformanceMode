@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:layout_gravity="start" android:id="@+id/button_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="@string/turn_on_now" android:layout_marginStart="@dimen/button_margin_start" style="@style/TurnOnNowButton"/>
+    <Button android:layout_gravity="start" android:id="@+id/button_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="@string/turn_off_now" android:layout_marginStart="@dimen/button_margin_start" style="@style/TurnOffNowButton"/>
+    <View android:background="?android:attr/dividerHorizontal" android:layout_width="match_parent" android:layout_height="@dimen/divider_height"/>
+    <LinearLayout android:background="?android:attr/selectableItemBackground" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+        <ImageView android:paddingTop="@dimen/icon_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_info_outline_24"/>
+        <TextView android:textColor="?android:attr/textColorSecondary" android:ellipsize="marquee" android:paddingTop="@dimen/text_view_padding_top" android:paddingBottom="@dimen/text_view_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_resource" android:maxLines="10" android:paddingStart="@dimen/text_view_padding_start" android:paddingEnd="@dimen/text_view_padding_end"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">[Þéŕƒöŕḿåñçé Ḿöðé one two three]</string>
+    <string name="help_resource">[Îţ ŵîļļ þŕöVîðé ɓéţţéŕ þéŕƒöŕḿåñçé îñ ḿöšţ šçéñåŕîöš ɓûţ ţĥéŕé ŵîļļ ɓé å ɓîţ ĥîĝĥéŕ þöŵéŕ çöñšûḿþţîöñš åš ŵéļļ. one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="turn_off_fail">[Ţûŕñ öƒƒ þéŕƒöŕḿåñçé ḿöðé ƒåîļûŕé¡ one two three four]</string>
+    <string name="turn_off_invalid_handle">[ÎñVåļîð ĥåñðļé þåŕåḿ¡ one two three]</string>
+    <string name="turn_off_now">[Ţûŕñ öƒƒ ñöŵ one two]</string>
+    <string name="turn_on_fail">[Ţûŕñ öñ þéŕƒöŕḿåñçé ḿöðé ƒåîļûŕé¡ one two three four]</string>
+    <string name="turn_on_now">[Ţûŕñ öñ ñöŵ one two]</string>
+</resources>
